@@ -1,0 +1,20 @@
+# Secrets — jamais commités (cf. galaxy.key trouvé en clair dans ce repo)
+*.key
+*.pem
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+*_token*
+*secret*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# OS / éditeurs
+.DS_Store
+*.swp
